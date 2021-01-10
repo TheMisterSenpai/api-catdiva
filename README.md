@@ -1,13 +1,16 @@
 # api-catdiva
 Специальный модуль для бота "Кошка Дива 2.0" использующий API https://nekos.life
+
 Примечание: Скоро будет создан собственный сайт с API, это пока что временно
 
 #Установка
+
 '''
 pip install catdiva
 '''
 
 #Использование
+
 '''
 import discord
 from discord.ext import commands
@@ -53,7 +56,9 @@ class Test(commands.Cog):
 
 def setup(client):
     client.add_cog(Test(client))                
+
 '''
+
 
 # Что может выводить модуль
 - cat
